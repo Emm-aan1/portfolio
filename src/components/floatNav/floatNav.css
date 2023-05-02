@@ -1,0 +1,39 @@
+.float__nav {
+  display: none;
+}
+
+@media screen and (max-width: 1020px) {
+  .float__nav {
+    background: rgba(0, 0, 0, 0.4);
+    width: max-content;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    z-index: 50;
+    position: fixed;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.7rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+  }
+
+  .float__nav a {
+    background: transparent;
+    padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+  }
+
+  .float__nav a:hover {
+    background: var(--color-primary);
+  }
+
+  .float__nav a.active {
+    background: var(--color-primary);
+    color: var(--color-light);
+  }
+}

@@ -1,0 +1,137 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  padding-top: 1rem;
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(40deg, transparent, var(--color-primary), transparent);
+  display: grid;
+  place-items: center;
+}
+
+.about__image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: translateY(-16px);
+  transition: var(--transition);
+  margin-top: 2rem;
+}
+
+.about__image:hover {
+  transform: translateX(4px);
+}
+
+.about__image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+
+.about__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.about__card {
+  background: var(--color-bg-var);
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-var);
+  cursor: default;
+}
+
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about__card h5 {
+  font-size: 1rem;
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about__card:hover h5,
+.about__card:hover small {
+  color: var(--color-white);
+}
+
+.about__content p {
+  margin: 1.5rem 0;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+@media screen and (max-width: 1020px) {
+  section#about {
+    padding-top: 1rem;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 0;
+  }
+
+  .about__me {
+    width: 50%;
+    margin: 0 auto 5rem;
+  }
+
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+  }
+
+  .about__content a {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  section#about {
+    margin-bottom: 2rem;
+  }
+
+  .about__me {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 90vw;
+  }
+
+  .about__cards {
+    margin-top: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 1rem;
+  }
+}
