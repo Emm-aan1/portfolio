@@ -112,8 +112,13 @@
     margin-bottom: 2rem;
   }
 
-  .about__me {
-  display: none;
+.about__me {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 90vw;
   }
 
   .about__cards {
