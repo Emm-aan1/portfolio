@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mine/static/css/main.7fca1ac5.css",
+    "main.js": "/mine/static/js/main.113c06bf.js",
+    "static/media/about.JPG": "/mine/static/media/about.eab379a446a95d2e5d42.JPG",
+    "static/media/header.jpg": "/mine/static/media/header.b14f7a2b60f5b228d767.jpg",
+    "static/media/port4.jpg": "/mine/static/media/port4.1267c06fe39e265bfb6e.jpg",
+    "static/media/port5.jpg": "/mine/static/media/port5.a59f81f54a43fd73284e.jpg",
+    "static/media/port2.jpg": "/mine/static/media/port2.f327703436fdbe249c59.jpg",
+    "static/media/port1.jpg": "/mine/static/media/port1.7fe70a823ec2b269fe81.jpg",
+    "static/media/port3.jpg": "/mine/static/media/port3.1a2ba9186cabb3ea1b80.jpg",
+    "static/media/cv.pdf": "/mine/static/media/cv.d6a6c39a0a2cdc9942d5.pdf",
+    "static/media/port6.jpg": "/mine/static/media/port6.2e361302d99764bd686b.jpg",
+    "index.html": "/mine/index.html",
+    "main.7fca1ac5.css.map": "/mine/static/css/main.7fca1ac5.css.map",
+    "main.113c06bf.js.map": "/mine/static/js/main.113c06bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fca1ac5.css",
+    "static/js/main.113c06bf.js"
+  ]
+}
