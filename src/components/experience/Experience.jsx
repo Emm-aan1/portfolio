@@ -52,10 +52,6 @@ function Experience() {
               <h4>MySQL</h4>
               <small className='text-light'>Advance Beginner</small>
             </article>
-            <article className="experience__details">
-              <h4>ALGORITHM</h4>
-              <small className='text-light'>Novice</small>
-            </article>
           </div>
         </div>
       </div>
