@@ -40,7 +40,6 @@ html {
 
 body {
   font-family: 'Oswald', sans-serif;
-  /* background: var(--color-bg); */
   color: var(--color-white);
   line-height: 1.5;
   background-color: #313153;
